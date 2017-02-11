@@ -14,3 +14,8 @@ Options Page:
 ```
 https://developer.chrome.com/extensions/options
 ```
+
+MDN Info on forms:
+```
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms
+```
