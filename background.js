@@ -5,7 +5,7 @@ function post(data, settings) {
   xhr.open("POST", settings.backend_url);
   xhr.onreadystatechange = function() {
     console.log(xhr);
-    if(xhr.readystate == 4) {
+    if(xhr.readystate == XMLHttpRequest.DONE) {
       console.log(xhr.responseText);
     }
   }
