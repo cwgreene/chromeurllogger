@@ -2,6 +2,19 @@
 Basic chrome plugin to report urls to a specified location. Allows configuration of
 destination and username credentials.
 
+## Testing Locally
+Open chrome, and goto chrome://extensions and click on 'Load unpacked extensions...'
+and install select this extension's directory.
+
+Set the backend url in the settings page to http://localhost:8080
+then Install something like http-echo-server to see the requests.
+
+```
+git clone https://github.com/watson/http-echo-server
+cd http-echo-server
+npm install
+PORT=8080 npm start
+```
 ## Tutorials Used
 
 Used the following tutorials and stack overflow questions.
@@ -35,16 +48,3 @@ Actually publishing:
 
 https://developer.chrome.com/webstore/publish
 
-## Testing Locally
-Open chrome, and goto chrome://extensions and click on 'Load unpacked extensions...'
-and install select this extension's directory.
-
-Set the backend url in the settings page to http://localhost:8080
-then Install something like http-echo-server to see the requests.
-
-```
-git clone https://github.com/watson/http-echo-server
-cd http-echo-server
-npm install
-PORT=8080 npm start
-```
