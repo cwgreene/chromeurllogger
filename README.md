@@ -19,3 +19,8 @@ MDN Info on forms:
 ```
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms
 ```
+
+Doing requests
+```
+https://developer.chrome.com/extensions/xhr
+```

@@ -9,7 +9,9 @@
     "scripts": ["background.js"]
   },
   "permissions": [
-    "tabs"
+    "tabs",
+    "storage",
+    "http://*/*"
   ],
   "options_page": "options.html"
 }
