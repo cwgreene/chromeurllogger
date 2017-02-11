@@ -36,6 +36,9 @@ Actually publishing:
 https://developer.chrome.com/webstore/publish
 
 ## Testing Locally
+Open chrome, and goto chrome://extensions and click on 'Load unpacked extensions...'
+and install select this extension's directory.
+
 Set the backend url in the settings page to http://localhost:8080
 then Install something like http-echo-server to see the requests.
 
