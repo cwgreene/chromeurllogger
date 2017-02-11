@@ -24,3 +24,8 @@ Doing requests
 ```
 https://developer.chrome.com/extensions/xhr
 ```
+
+Actually publishing:
+```
+https://developer.chrome.com/webstore/publish
+```
