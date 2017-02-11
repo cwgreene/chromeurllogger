@@ -1,3 +1,9 @@
+# Url Reporter
+Basic chrome plugin to report urls to a specified location. Allows configuration of
+destination and username credentials.
+
+## Tutorials Used
+
 Used the following tutorials and stack overflow questions.
 
 Basic Setup:
@@ -29,3 +35,13 @@ Actually publishing:
 
 https://developer.chrome.com/webstore/publish
 
+## Testing Locally
+Set the backend url in the settings page to http://localhost:8080
+then Install something like http-echo-server to see the requests.
+
+```
+git clone https://github.com/watson/http-echo-server
+cd http-echo-server
+npm install
+PORT=8080 npm start
+```
